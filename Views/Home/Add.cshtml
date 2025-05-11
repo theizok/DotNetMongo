@@ -1,0 +1,32 @@
+@{
+    ViewData["Title"] = "Add publication";
+    DateTime now = DateTime.Now;
+    string formattedDate = now.ToString("yyyy-MM-ddTHH:mm");
+}
+<div class="container">
+    <ul>
+        <li>
+           <a href="javascript:history.back()">Go back</a>
+        </li>
+    </ul>
+    <h1>Create publication</h1>
+</div>
+<div class="container-sm">
+    <form method="post" action="http://localhost:5128/api/publication/create">
+        <div>
+            <label for="Author">Author</label>
+            <input type="text" id="author" name="author" class="author form-control">
+        </div>
+        <div>
+             <label for="Content">Content</label>
+            <textarea id="content" name="content" class="content form-control"></textarea>
+        </div>
+        <div>
+            <label for="DateTime">Date</label>
+            <input type="datetime-local" class="form-control" value="@formattedDate" name="date">
+        </div>
+        <div> 
+            <button type="submit" class="btn btn-primary">Create</button>
+        </div>
+    </form>
+</div>

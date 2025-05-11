@@ -1,14 +1,31 @@
-public class Publication {
+using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
+using MongoDB.Driver;
+using System;
+using System.Collections.Generic;
 
-private int publicationId {get; set;};
-private int authorId {get;set;}:
-private string content {get; set;};
-private DateTime date {get; set;};
+namespace BackChat.Models{
 
+    public class Publication
+    {
+        [BsonId]
+        [BsonRepresentation(BsonType.ObjectId)]
+        public string? PublicationId { get; set; } 
 
-public Publication (string content, DateTime date){
-    this.content = content
-    this.date = date 
+        public string author { get; set; }
+        public string content { get; set; }
+        public DateTime date { get; set; }
+
+        public Publication(string author ,string content, DateTime date)
+        {
+            this.author = author;
+            this.content = content;
+            this.date = date;
+        }
+
+        public Publication(){
+            
+        }
+    }
+
 }
-
-}    

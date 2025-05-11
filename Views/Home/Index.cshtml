@@ -1,8 +1,27 @@
-﻿@{
+﻿@model IEnumerable<BackChat.Models.Publication>
+@{
     ViewData["Title"] = "Home Page";
 }
+<div class="container">
+    <h1>Publications</h1>
+    
+    <a href="@Url.Action("Add", "Home")" class="btn btn-success add-publication">Add New Publication</a>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    @if (Model != null && Model.Any()){
+        <div class="container-md publication-list">
+            @foreach (var publication in Model){
+                <div class="card publication">
+                    <p>
+                        <h3>Author:</h3><h5>@publication.author</h5>
+                    </p>
+                    <h3>Content:</h3><br>
+                    <p>@publication.content</p>
+                    <small>Published on: @publication.date.ToString("dd//MM/yyyy")</small>
+                </div>
+            }
+        </div>
+    }else{
+        <p> No publications found</p>
+    }
 </div>
+    

@@ -17,7 +17,6 @@
 /home/isaacramirez/Documentos/Programacion/dotnet/MVC/BackChat/obj/Debug/net9.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
 /home/isaacramirez/Documentos/Programacion/dotnet/MVC/BackChat/obj/Debug/net9.0/scopedcss/bundle/BackChat.styles.css
 /home/isaacramirez/Documentos/Programacion/dotnet/MVC/BackChat/obj/Debug/net9.0/scopedcss/projectbundle/BackChat.bundle.scp.css
-/home/isaacramirez/Documentos/Programacion/dotnet/MVC/BackChat/obj/Debug/net9.0/compressed/jv2mhscvkd-lugek5hnai.gz
 /home/isaacramirez/Documentos/Programacion/dotnet/MVC/BackChat/obj/Debug/net9.0/compressed/cpxysmshuf-61n19gt1b8.gz
 /home/isaacramirez/Documentos/Programacion/dotnet/MVC/BackChat/obj/Debug/net9.0/compressed/gzzrlzsgfg-fr7q2aak1r.gz
 /home/isaacramirez/Documentos/Programacion/dotnet/MVC/BackChat/obj/Debug/net9.0/compressed/kco7lzb6pm-bqjiyaj88i.gz
@@ -95,3 +94,14 @@
 /home/isaacramirez/Documentos/Programacion/dotnet/MVC/BackChat/obj/Debug/net9.0/BackChat.pdb
 /home/isaacramirez/Documentos/Programacion/dotnet/MVC/BackChat/obj/Debug/net9.0/BackChat.genruntimeconfig.cache
 /home/isaacramirez/Documentos/Programacion/dotnet/MVC/BackChat/obj/Debug/net9.0/ref/BackChat.dll
+/home/isaacramirez/Documentos/Programacion/dotnet/MVC/BackChat/obj/Debug/net9.0/BackChat.csproj.AssemblyReference.cache
+/home/isaacramirez/Documentos/Programacion/dotnet/MVC/BackChat/obj/Debug/net9.0/BackChat.sourcelink.json
+/home/isaacramirez/Documentos/Programacion/dotnet/MVC/BackChat/bin/Debug/net9.0/DnsClient.dll
+/home/isaacramirez/Documentos/Programacion/dotnet/MVC/BackChat/bin/Debug/net9.0/MongoDB.Bson.dll
+/home/isaacramirez/Documentos/Programacion/dotnet/MVC/BackChat/bin/Debug/net9.0/MongoDB.Driver.dll
+/home/isaacramirez/Documentos/Programacion/dotnet/MVC/BackChat/bin/Debug/net9.0/Npgsql.dll
+/home/isaacramirez/Documentos/Programacion/dotnet/MVC/BackChat/bin/Debug/net9.0/SharpCompress.dll
+/home/isaacramirez/Documentos/Programacion/dotnet/MVC/BackChat/bin/Debug/net9.0/Snappier.dll
+/home/isaacramirez/Documentos/Programacion/dotnet/MVC/BackChat/bin/Debug/net9.0/ZstdSharp.dll
+/home/isaacramirez/Documentos/Programacion/dotnet/MVC/BackChat/obj/Debug/net9.0/BackChat.csproj.Up2Date
+/home/isaacramirez/Documentos/Programacion/dotnet/MVC/BackChat/obj/Debug/net9.0/compressed/jv2mhscvkd-x7hskz1n3i.gz

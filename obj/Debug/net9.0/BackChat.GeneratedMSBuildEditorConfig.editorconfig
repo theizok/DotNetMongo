@@ -20,6 +20,10 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
+[/home/isaacramirez/Documentos/Programacion/dotnet/MVC/BackChat/Views/Home/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9BZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/isaacramirez/Documentos/Programacion/dotnet/MVC/BackChat/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

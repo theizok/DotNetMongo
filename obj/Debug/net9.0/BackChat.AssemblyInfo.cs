@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BackChat")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0714625ea805a3108636157637fffea6667cb3b")]
 [assembly: System.Reflection.AssemblyProductAttribute("BackChat")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BackChat")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
